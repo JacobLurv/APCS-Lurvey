@@ -4,7 +4,7 @@
 // Resave this program as TextLab02v100 for the 100 point version.
 
 
-public class TextLab02st
+public class TextLab02v100
 {
 	public static void main(String args[])
 	{

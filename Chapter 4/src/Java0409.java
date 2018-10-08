@@ -10,14 +10,15 @@ import java.awt.*;
 import java.applet.*;
 
 
-public class Java0409 extends Applet
-{
-	public void paint(Graphics screen)
+public class Java0409 {
+	public static void main (String []args)
 	{
-		screen.drawOval(50,50,100,100);
-		screen.drawOval(300,50,300,50);
-		screen.fillOval(50,400,100,100);
-		screen.fillOval(300,400,300,150);
+		int a = 100/3;
+		String d = "100";
+		int b = 300;
+		int c = 200;
+		
+		System.out.println(a);
 	}
 }
 

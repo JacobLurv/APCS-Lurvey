@@ -3,7 +3,7 @@ import java.applet.Applet;
 import java.awt.*;
 import java.lang.Math;;
 
-public class LabChapter4 extends Applet {
+public class GraphicsLab01v110 extends Applet {
 	public void paint(Graphics screen) {
 		
 		//square

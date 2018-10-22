@@ -9,12 +9,10 @@ public class Java0401
 {
 	public static void main (String[] args)
 	{
-		System.out.println("\nJAVA0401.JAVA\n");
-		int n1 = 625;
-		double n2 = 6.25;
-		System.out.println("Square root of " + n1 + ": " + Math.sqrt(n1));
-		System.out.println("Square root of " + n2 + ": " + Math.sqrt(n2));
-		System.out.println();
+		float sum = 0;
+		for(float i = 1; i <= 12; i++) {
+			sum = sum + i;
+		}
+		System.out.println(sum);
    }
 }
-

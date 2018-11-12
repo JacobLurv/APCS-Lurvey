@@ -1,20 +1,28 @@
-// Java0301.java
-// This program demonstrates how to declare integer variables with <int>,
-// and it shows how to display the value of a variable with <println>.
-
+import java.util.Scanner;
 
 public class Java0301
 {
 	public static void main (String args[])
 	{
-		int a;
-		int b;
-		a = 10;
-		b = 25;
-		System.out.println();
-		System.out.println(a);
-		System.out.println(b);
-		System.out.println();
+		Scanner keyboard = new Scanner(System.in);
+		int input;
+		int evens;
+		
+		System.out.println("Enter your number");
+		input = keyboard.nextInt();
+		evens = countEvens(input);
+		System.out.println(evens);
+	}
+	
+	public static int countEvens(int input) {
+		int increment = 0;
+		
+		for(int i = 1; i <= input; i++) {
+			if(i % 2 == 0)
+				increment++;
+		}
+		
+		return increment;
 	}
 }
 

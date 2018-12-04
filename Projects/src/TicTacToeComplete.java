@@ -95,7 +95,7 @@ public class TicTacToeComplete {
 		for(int j = 0; j <= 2; j++) {
 			if(board[j] == current && board[j+3] == current && board[j+6] == current) {
 				won = true;
-			}
+		}
 			
 		if(board[0] == current && board[4] == current && board[8] == current)
 			won = true;

@@ -1,4 +1,5 @@
-package account;
+package bank;
+
 
 public class Customer {
 	private String name1;

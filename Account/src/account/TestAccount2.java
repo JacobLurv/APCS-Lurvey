@@ -1,6 +1,6 @@
 package account;
 
-public class TestAccount {
+public class TestAccount2 {
 
 	public static void main(String[] args) {
 		CheckingAccount jonDoe = new CheckingAccount(500.00);

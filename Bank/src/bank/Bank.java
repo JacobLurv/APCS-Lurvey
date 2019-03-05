@@ -1,6 +1,8 @@
-package account;
+package bank;
 
-public class Bank{
+import account.Customer;
+
+public class Bank {
 	private Customer[] customers = new Customer[100];
 	private int customerNum = customers.length;
 	
